@@ -43,4 +43,4 @@ AI 英語即時教練
 7. python rag.py
 
 ### Screenshot
-![alt text](Screenshots/rag.png)
+![alt text](Screenshots/rag_blue.png)
