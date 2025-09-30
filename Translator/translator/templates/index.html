@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    </head>
+    <body>
+        <h1>AI 英語即時教練</h1>
+        <div style="text-align: center;">
+        <p>Python Flask: 網站架構 | Whisper: 語音轉文字 | GPT-4o: 大型語言模型 | TTS: 文字轉語音</p>
+        </div>
+        <textarea id="dialog"></textarea>
+        <input type="text" id="message" name="message" placeholder="請在此輸入文字訊息或按右邊錄音按鈕">
+        <button id="start">Record</button>
+        <button id="clearHistory">Clear History</button>
+        <script src="//unpkg.com/jquery"></script>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+</html>
