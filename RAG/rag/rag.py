@@ -90,6 +90,6 @@ qa_chain = (
 
 
 # 步驟 7: 進行查詢
-response = qa_chain.invoke("Raccoon AI 的特色？")
+response = qa_chain.invoke("Raccoon AI 的特色")
 
 print(response)
